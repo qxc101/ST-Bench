@@ -1,0 +1,230 @@
+{
+  "per_task": [
+    {
+      "task_id": "C1.1",
+      "split": "all",
+      "n_queries": 22,
+      "success_rate": 0.045454545454545456,
+      "n_success": 1,
+      "per_metric": {
+        "Silhouette Score": {
+          "target": "> 0.3",
+          "n_reported": 1,
+          "mean": 0.42,
+          "median": 0.42,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Davies-Bouldin Index": {
+          "target": "Lower is better",
+          "n_reported": 1,
+          "mean": 0.9,
+          "median": 0.9,
+          "pass_rate": null,
+          "n_passes_checked": 0
+        },
+        "NSE Improvement": {
+          "target": "> 0",
+          "n_reported": 1,
+          "mean": 0.05,
+          "median": 0.05,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Physical Coherence": {
+          "target": "> 80%",
+          "n_reported": 1,
+          "mean": 0.92,
+          "median": 0.92,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Cross-Algorithm Agreement (ARI)": {
+          "target": "> 0.5",
+          "n_reported": 1,
+          "mean": 0.6,
+          "median": 0.6,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        }
+      },
+      "records": [
+        {
+          "query_id": "C1.1::04c3aa5e",
+          "split": "train",
+          "status": "ok",
+          "metrics": {
+            "Silhouette Score": 0.42,
+            "Davies-Bouldin Index": 0.9,
+            "NSE Improvement": 0.05,
+            "Physical Coherence": 0.92,
+            "Cross-Algorithm Agreement (ARI)": 0.6
+          },
+          "pass": {
+            "Silhouette Score": true,
+            "Davies-Bouldin Index": null,
+            "NSE Improvement": true,
+            "Physical Coherence": true,
+            "Cross-Algorithm Agreement (ARI)": true
+          }
+        },
+        {
+          "query_id": "C1.1::11cca48d",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::242d800e",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::2f4cef93",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::4da468f7",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::6b201c6b",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::6dbc43a0",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::7c783f19",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::81609d60",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::991acedf",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::aac81946",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::e64a069a",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::f93499f7",
+          "split": "train",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::05b7eb92",
+          "split": "val",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::908f43c2",
+          "split": "val",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::c6ed7315",
+          "split": "val",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::f51a2cd9",
+          "split": "val",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::2a7ef497",
+          "split": "test",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::4275ba71",
+          "split": "test",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::4fe6adea",
+          "split": "test",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::7f8c0e6d",
+          "split": "test",
+          "status": "no_results"
+        },
+        {
+          "query_id": "C1.1::92bc77dd",
+          "split": "test",
+          "status": "no_results"
+        }
+      ]
+    }
+  ],
+  "overall": [
+    {
+      "task_id": "C1.1",
+      "split": "all",
+      "n_queries": 22,
+      "success_rate": 0.045454545454545456,
+      "n_success": 1,
+      "per_metric": {
+        "Silhouette Score": {
+          "target": "> 0.3",
+          "n_reported": 1,
+          "mean": 0.42,
+          "median": 0.42,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Davies-Bouldin Index": {
+          "target": "Lower is better",
+          "n_reported": 1,
+          "mean": 0.9,
+          "median": 0.9,
+          "pass_rate": null,
+          "n_passes_checked": 0
+        },
+        "NSE Improvement": {
+          "target": "> 0",
+          "n_reported": 1,
+          "mean": 0.05,
+          "median": 0.05,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Physical Coherence": {
+          "target": "> 80%",
+          "n_reported": 1,
+          "mean": 0.92,
+          "median": 0.92,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        },
+        "Cross-Algorithm Agreement (ARI)": {
+          "target": "> 0.5",
+          "n_reported": 1,
+          "mean": 0.6,
+          "median": 0.6,
+          "pass_rate": 1.0,
+          "n_passes_checked": 1
+        }
+      }
+    }
+  ]
+}
